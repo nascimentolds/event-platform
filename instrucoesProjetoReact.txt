@@ -1,0 +1,22 @@
+BIBLIOTECAS PARA PROJETO REACT
+
+npm create vite@latest //Criando o projeto com Vite
+npm install //Instalar todas as dependencias
+npm i tailwindcss postcss autoprefixer -D
+npx tailwindcss init -p //Iniciando a biblioteca tailwindcss
+
+No arquivo tailwind.config.js passa os seguintes dados no content:
+'./src/**/*.tsx' 
+
+Dentro da Pasta src cria uma pasta chamada styles e dentro um arquivo chamado global.css dentro deste arquivo cria o Setup do tailwind:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Instalar as extenções no VsCode: GraphQL, Tailwind CSS IntelliSense, PostCSS Language Support
+
+Faz esse import no arquivo main.tsx: import './styles/global.css'
+
+npm i @apollo/client graphql //Instalar o Apollo e o GraphQl para fazer reqisições no CMS
+
+ 
