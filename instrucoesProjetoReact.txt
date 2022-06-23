@@ -20,3 +20,7 @@ Faz esse import no arquivo main.tsx: import './styles/global.css'
 npm i @apollo/client graphql //Instalar o Apollo e o GraphQl para fazer reqisições no CMS
 
  https://svg2jsx.com/ //Exporta SVG para componente react
+
+ npm i phosphor-react //biblioteca de icones para React
+
+ npm i date-fns //Converter datas no react
