@@ -24,3 +24,7 @@ npm i @apollo/client graphql //Instalar o Apollo e o GraphQl para fazer reqisiç
  npm i phosphor-react //biblioteca de icones para React
 
  npm i date-fns //Converter datas no react
+
+ npm i @vime/core @vime/react --force // vimejs: Biblioteca para player de video
+
+ npm i react-router-dom //Biblioteca para criar as rotas
